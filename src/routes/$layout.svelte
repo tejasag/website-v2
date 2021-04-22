@@ -31,7 +31,7 @@
   }
 
   body::before {
-    background-image: url(background.png);
+    background-image: url("/background.png");
     background-repeat: repeat;
     background-size: 63px;
     content: "";
