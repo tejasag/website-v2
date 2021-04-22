@@ -8,9 +8,9 @@
 
 <div class="theme-switcher">
     {#if lightTheme === true}
-        <img src="../../static/sun.svg" alt="light" style="color: #3D6E8EFF" on:click={switchTheme}>
+        <img src="sun.svg" alt="light" on:click={switchTheme}>
     {:else}
-        <img src="../../static/moon.svg" alt="dark" on:click={switchTheme}>
+        <img src="moon.svg" alt="dark" on:click={switchTheme}>
     {/if}
 </div>
 

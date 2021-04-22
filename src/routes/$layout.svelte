@@ -23,9 +23,23 @@
   }
 
   body {
-    background-color: var(--bg-color);
     transition: background-color 0.30s;
     max-width: 100vw;
     min-height: 100vh;
+    position: relative;
+    background-color: var(--bg-color);
+  }
+
+  body::before {
+    background-image: url(background.png);
+    background-repeat: repeat;
+    background-size: 60px;
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    opacity: 0.60;
   }
 </style>
