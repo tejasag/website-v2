@@ -1,0 +1,31 @@
+<slot/>
+
+<style lang="scss" global>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200;1,300;1,500;1,900&display=swap');
+
+  :root {
+    --bg-color: #26262d;
+    --landing-page-header-color: white;
+    --landing-page-navbar: #acf1c9;
+    --landing-page-name-color: #d56e6e;
+  }
+
+  html[light-theme="true"] {
+    --bg-color: #eedbc4;
+    --landing-page-header-color: #3d6e8e;
+    --landing-page-navbar: #707f74;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    background-color: var(--bg-color);
+    transition: background-color 0.30s;
+    max-width: 100vw;
+    min-height: 100vh;
+  }
+</style>
