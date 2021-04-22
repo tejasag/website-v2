@@ -1,0 +1,5 @@
+.svelte
+.idea
+yarn.lock
+yarn-error.log
+node_modules
