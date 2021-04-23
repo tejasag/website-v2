@@ -1,6 +1,17 @@
+<script lang="ts">
+    const gotoAbout = (e) => {
+        document.querySelector(".pages__about").scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest"
+        })
+    }
+</script>
+
+
 <nav>
     <ul class="navbar">
-        <li class="navbar__component"><a href="/about">/about</a></li>
+        <li class="navbar__component"><a href="#about" on:click={gotoAbout}>/about</a></li>
         <li class="navbar__component"><a href="/projects">/projects</a></li>
         <li class="navbar__component"><a href="/hackathons">/hackathons</a></li>
         <li class="navbar__component"><a href="/contact">/contact</a></li>
