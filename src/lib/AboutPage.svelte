@@ -3,6 +3,11 @@
         <h1 class="header" data-aos="fade-right" data-aos-duration="1200">
             About me
         </h1>
+        <h2 class="details" data-aos="fade-right" data-aos-duration="1500">
+            Hi! I am Tejas Agarwal, a full stack web developer from India! I have been developing for about a year now
+            and some of my favourite languages include TypeScript and Rust!<br/><br/>When I am not developing, I play Lawn Tennis, make
+            3D art or hang around at <a href="https://hackclub.com">HackClub's slack</a>
+        </h2>
     </div>
 </div>
 
@@ -13,10 +18,25 @@
   }
 
   .header {
-    padding: 20vh 20vw;
+    padding-left: 15vw;
+    padding-top: 20vh;
+    padding-bottom: 0;
     font-size: 4em;
-    color: var(--landing-page-header-color);
+    color: var(--landing-page-name-color);
     font-weight: bold;
+  }
+
+  .details {
+    padding-left: 15vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+    color: var(--landing-page-header-color);
+    font-size: 1.5em;
+    font-weight: lighter;
+
+    a {
+      color: var(--landing-page-navbar);
+    }
   }
 
   @media screen and (max-width: 600px) {

@@ -6,7 +6,7 @@
 <div class="pages__landing">
     <ThemeSwitcher/>
     <div class="landing-content">
-        <h1 class="heading">Hey there!<br/> I'm
+        <h1 class="heading" data-aos="fade-right" data-aos-duration="1200">Hey there!<br/> I'm
             <span class="landing-page__name">Tejas Agarwal</span>
         </h1>
         <Navbar/>
@@ -32,21 +32,8 @@
     h1 {
       font-size: 4em;
       color: var(--landing-page-header-color);
-      animation: fade ease 0.75s;
-      animation-delay: 1.1s;
       transition: color 1s;
-    }
-  }
-
-  @keyframes fade {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 0.5;
-    }
-    100% {
-      opacity: 1;
+      animation: rotateHeader;
     }
   }
 

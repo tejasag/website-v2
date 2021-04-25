@@ -8,7 +8,6 @@
     }
 </script>
 
-
 <nav>
     <ul class="navbar">
         <li class="navbar__component"><a href="#about" on:click={gotoAbout}>/about</a></li>

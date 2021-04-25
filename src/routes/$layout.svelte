@@ -16,7 +16,6 @@
     --bg-color: #eedbc4;
     --landing-page-header-color: #3d6e8e;
     --landing-page-navbar: #707f74;
-    --background-image-filter: invert(9%) sepia(11%) saturate(24%) hue-rotate(326deg) brightness(93%) contrast(94%);;
     --background-image: url("/background-light.png");
   }
 
@@ -44,7 +43,7 @@
       right: 0px;
       left: 0px;
       bottom: 0px;
-      opacity: 0.6;
+      opacity: 0.5;
     }
   }
 </style>
