@@ -41,10 +41,10 @@
     .landing-content {
       padding-left: 15vw;
       padding-top: 0.25vh;
+      top: 20%;
 
       h1 {
         font-size: 3em;
-
       }
     }
   }

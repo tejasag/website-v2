@@ -4,9 +4,9 @@
             About me
         </h1>
         <h2 class="details" data-aos="fade-right" data-aos-duration="1500">
-            Hi! I am Tejas Agarwal, a full stack web developer from India! I have been developing for about a year now
+            Hi! I am Tejas Agarwal, a full stack web developer from India! <br/> I have been developing for about a year now
             and some of my favourite languages include TypeScript and Rust!<br/><br/>When I am not developing, I play Lawn Tennis, make
-            3D art or hang around at <a href="https://hackclub.com">HackClub's slack</a>
+            3D art or hang around at <a href="/hackclub">HackClub's slack</a>
         </h2>
     </div>
 </div>
@@ -14,6 +14,7 @@
 <style lang="scss">
   .pages__about {
     height: 100vh;
+    max-height: 100vh;
     position: relative;
   }
 
@@ -41,12 +42,17 @@
 
   @media screen and (max-width: 600px) {
     .content {
-      padding-left: 15vw;
-      padding-top: 0.25vh;
+      padding-left: 10vw;
+    }
 
-      .header {
-        font-size: 3em;
-      }
+    .header {
+      font-size: 3em;
+      padding-left: 0;
+      padding-top: 10vh;
+    }
+
+    .details {
+      padding-left: 0;
     }
   }
 </style>
