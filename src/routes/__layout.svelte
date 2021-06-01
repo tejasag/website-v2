@@ -48,4 +48,10 @@
       opacity: 0.5;
     }
   }
+
+  @media screen and (max-width: 600px){
+    * {
+      max-width: 100vw;
+    }
+  }
 </style>

@@ -39,12 +39,13 @@
 
   @media screen and (max-width: 600px) {
     .landing-content {
-      padding-left: 15rem;
+      padding-left: 5rem;
       padding-top: 0.25rem;
+      padding-right:5rem;
       top: 20%;
 
       h1 {
-        font-size: 3em;
+        font-size: 2.5em;
       }
     }
   }

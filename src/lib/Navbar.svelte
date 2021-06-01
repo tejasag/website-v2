@@ -91,4 +91,12 @@
       opacity: 1;
     }
   }
+
+  @media screen and (max-width: 600px){
+    .navbar {
+      li {
+        font-size: 1.25em;
+      }
+    }
+  }
 </style>

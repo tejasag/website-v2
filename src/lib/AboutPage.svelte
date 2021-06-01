@@ -78,5 +78,23 @@
   }
 
   @media screen and (max-width: 600px) {
+    .pages__about {
+        padding-left: 3rem;
+      padding-right: 0.5rem;
+    }
+
+    .content {
+      > .header-container {
+        margin-left: 0.25rem;
+      }
+
+      > .details-container > .details {
+        margin-left: 0.1rem;
+        margin-right: 1.4rem;
+        max-width: none;
+        font-size: 1em;
+        color: var(--about-page-details)
+      }
+    }
   }
 </style>
