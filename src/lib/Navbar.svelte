@@ -1,9 +1,19 @@
 <script lang="ts">
     const gotoAbout = (e) => {
         document.querySelector(".pages__about").scrollIntoView({
-            behavior: "smooth",
-            block: "start",
-            inline: "nearest"
+            behavior: "smooth", block: "start", inline: "nearest"
+        })
+    }
+
+    const goToContact = (e) => {
+        document.querySelector(".pages__contact").scrollIntoView({
+            behavior: "smooth", block: "start", inline: "nearest"
+        })
+    }
+
+    const goToProjects = (e) => {
+        document.querySelector(".pages__projects").scrollIntoView({
+            behavior: "smooth", block: "start", inline: "nearest"
         })
     }
 </script>
@@ -11,9 +21,9 @@
 <nav>
     <ul class="navbar">
         <li class="navbar__component"><a href="#about" on:click={gotoAbout}>/about</a></li>
-        <li class="navbar__component"><a href="/projects">/projects</a></li>
-        <li class="navbar__component"><a href="/hackathons">/hackathons</a></li>
-        <li class="navbar__component"><a href="/contact">/contact</a></li>
+        <li class="navbar__component"><a href="#projects" on:click={goToProjects}>/projects</a></li>
+        <li class="navbar__component"><a href="/experience">/experience</a></li>
+        <li class="navbar__component"><a href="#contact" on:click={goToContact}>/contact</a></li>
     </ul>
 </nav>
 

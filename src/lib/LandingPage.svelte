@@ -6,8 +6,8 @@
 <div class="pages__landing">
     <ThemeSwitcher/>
     <div class="landing-content">
-        <h1 class="heading" data-aos="fade-right" data-aos-duration="1200">Hey there!<br/> I'm
-            <span class="landing-page__name">Tejas Agarwal</span>
+        <h1 class="heading" data-aos="fade-right" data-aos-duration="1200">hey there!<br/> i'm
+            <span class="landing-page__name">tejas agarwal</span>
         </h1>
         <Navbar/>
     </div>
@@ -22,8 +22,8 @@
   .landing-content {
     position: absolute;
     top: 30%;
-    padding: 1vh 20vw;
-    background-position-x: 20vw;
+    padding: 1rem 20rem;
+    background-position-x: 20rem;
 
     .landing-page__name {
       color: var(--landing-page-name-color);
@@ -39,8 +39,8 @@
 
   @media screen and (max-width: 600px) {
     .landing-content {
-      padding-left: 15vw;
-      padding-top: 0.25vh;
+      padding-left: 15rem;
+      padding-top: 0.25rem;
       top: 20%;
 
       h1 {
