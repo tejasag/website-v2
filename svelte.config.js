@@ -1,7 +1,6 @@
 import sveltePreprocess from "svelte-preprocess"
 import node from "@sveltejs/adapter-node"
 import vercel from "@sveltejs/adapter-vercel"
-import pkg from "./package.json";
 
 /** @type {import('@sveltejs/kit').Config} */
 let config = {
