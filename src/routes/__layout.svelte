@@ -10,6 +10,7 @@
     --landing-page-navbar: #acf1c9;
     --landing-page-name-color: #d56e6e;
     --background-image: url("/background.png");
+    --about-page-details: white;
   }
 
   html[light-theme="true"] {
@@ -17,6 +18,7 @@
     --landing-page-header-color: #3d6e8e;
     --landing-page-navbar: #707f74;
     --background-image: url("/background-light.png");
+    --about-page-details: #3e3d3d;
   }
 
   * {
