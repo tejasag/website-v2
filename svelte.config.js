@@ -20,12 +20,6 @@ let config = {
         files: {
             assets: 'static',
         },
-
-        vite: {
-            ssr: {
-                noExternal: Object.keys(pkg.dependencies || {})
-            }
-        }
     }
 };
 
